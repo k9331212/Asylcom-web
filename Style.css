@@ -1,0 +1,38 @@
+body{
+	background: #f4f4f4;
+}
+header {
+
+}
+
+
+
+h1{
+	font-size: 25px;
+	text-align: center;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #10355F;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+
+}
+
+
+.main-title {
+	position: absolute;
+	font-size: 10em;
+	margin: 0;
+	padding: 0;
+	color: #409edd;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
